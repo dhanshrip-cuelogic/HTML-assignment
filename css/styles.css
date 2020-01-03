@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    letter-spacing: 0;
+    text-align: left;
+    font-family: Quicksand;
 }
 
 .container{
@@ -35,14 +38,13 @@ div.box2{
 .message{
     vertical-align: top;
     margin-top: 12px;
-    /*margin:auto;*/
+
 }
 
 .setting{
     vertical-align: top;
     margin-left: 42px;
     margin-top: 10.41px;
-    /*margin:auto;*/
 }
 
 .box3{
@@ -74,64 +76,61 @@ div.box2{
     margin-bottom: 36px;
 }
 .font18{
-    text-align: left;
-    font-size: medium;
-    font-family: Quicksand;
-    font-size:18px;
-    letter-spacing: 0;
+    font-size: 18px;
     color: #363F45;
 }
 .font16{
-    margin: 11px 102px 0px 15px;
-    text-align: left;
-    font-size: medium;
-    font-family: Quicksand;
+    padding-top: 11px;
+    padding-left: 15px;
     font-size: 16px;
-    letter-spacing: 0;
     color: #FFFFFF;
     float: left;
 
 }
+
+.font30{
+    margin-top: 65px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: #FFFFFF;
+    /* float: left; */
+
+}
+
 .box4{
     float: left;
     margin-right: 24px;
     width: 270px;
-}
+    }
+
 .lastbox{
     margin-right: 0px !important;
 }
 .box5{
-    margin-left: 180px;
-    width: 90px;
-    border: 1px solid white;
-    background-color:  #000000;
-    opacity: 0.1;
-    
+    background-color: rgba(0,0,0,0.1);
+    float: right;
 }
 
 .forma1{
     margin: 34px 33px;
-    opacity: 1;
 }
 .shape1{
     margin: 32px 22px 31px 23px;
-    opacity: 1;
 }
 
 .forma2{
     margin: 34px 28px 33px;
-    opacity: 1;
 }
 
 .forma3{
     margin: 32px 26px 31px;
-    opacity: 1;
 }
+
 .budget{
     background-color:#FEC006;
 }
 
-.milstone{
+.milestone{
     background-color:#E81D62;
 }
 
@@ -146,9 +145,116 @@ div.box2{
 .clear{
     clear: both;
 }
+
+.content2{
+    margin: 267px 24px 0px;
+    /* border: 1px solid black; */
+
+}
+
+.text2{
+    margin-bottom: 21px;
+}
+
+.less{
+       margin-left: 996px;
+}
+
+.greater{
+    float: right;
+}
+.milestone1{
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+ }
+
+ .box7{
+    margin: 28px 79px 27px 80px;
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+} 
+.green{
+    border: 10px solid #8AC249;
+}
+
+.yellow{
+
+    border: 10px solid #FEC006;
+}
+.grey
+{
+    border: 10px solid #F1F1F1;
+}
+
+
+.box8{
+    /* margin: 28px 79px 27px 80px; */
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    background-color: #F6EFD2;
+} 
+.white{
+    border: 2px solid #FFFFFF;
+    /* border: 2px solid red; */
+}
+.font30a{
+    color: #363F45;
+    font-size: 30px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.font16a{
+    color: #363F45;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 19px;
+    padding-top: 4px;
+}
+
+.box9{
+    margin-top: 1px;
+}
+
+.font16b{
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+/* padding: 20px 0px; */
+margin-top: 20px;
+margin-bottom: 5px;
+text-align: center;
+margin-left: 70px;
+/* background-color:  #FFFFFF; */
+}
+
+.box10{
+    font-size: 34px;
+    font-weight: bold;
+    /* margin-top: 9px; */
+    padding-left: 49px;
+    text-align: center;
+    color: #E1E2E9;
+    opacity: 1;
+    vertical-align: middle;
+}
 /*
  
+.box9{
+width: 270px;
+height: 3px;
+border: 1px solid black;
 
+}
+
+.box6{
+    width: 270px;
+    margin-right: 24px;
+    /* border: 1px solid red;
+    float: left;
+}
+   
 div.content1{
     margin:43px auto 0px;
     width: 1152px;
