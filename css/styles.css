@@ -7,20 +7,26 @@
 
 .container{
     width: 1200px;
-    height:auto;
-    margin:auto;
+    margin:0px auto;
 }
 
 body{
     background-color: #EBECF2;
+    font-family: Lato;
+    font-weight: normal;
 }
 
 header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
     background-color: #384B59;
+    z-index: 1000;
 }
 
 .header{
-    padding: 10px 24px;
+    /* position: fixed; */
+    padding: 10px 0px;
     width:1200px;
     margin:auto;
 }
@@ -82,7 +88,7 @@ header{
 }
 
 .content1{
-    margin: 43px 24px 0px;
+    /* margin: 43px 0px 0px; */
 }
 
 .dots{
@@ -91,7 +97,7 @@ header{
 }
 
 .text1{
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
 }
 
 .font18{
@@ -114,11 +120,6 @@ header{
     color: #FFFFFF;
 }
 
-.box4{
-    float: left;
-    margin-right: 24px;
-    width: 270px;
-}
 
 .lastbox{
     margin-right: 0px !important;
@@ -166,58 +167,66 @@ header{
 }
 
 .content2{
-    margin: 267px 24px 0px;
+    /* margin: 267px 0px 0px; */
 }
 
 .text2{
-    margin-bottom: 21px;
+    /* margin-bottom: 21px; */
 }
 
 .less{
-       margin-left: 996px;
+       /* margin-left: 996px; */
 }
 
-.greater{
+.tag{
     float: right;
+    padding-right: 27px;
 }
 
+.box4{
+    float: left;
+    margin-right: 24px;
+    width: 270px;
+}
 .milestone1{
     background-color: #FFFFFF;    
  }
 
  .box7{
-    margin: 28px 79px 27px 80px;
+    /* margin: 28px 79px 27px 80px; */
+    margin: 28px auto;
     width: 111px;
     height: 111px;
     border-radius: 50%;
 } 
 
 .green{
-    border: 10px solid #8AC249;
+    /* border: 10px solid #8AC249; */
 }
 
 .yellow{
-    border: 10px solid #FEC006;
+    /* border: 10px solid #FEC006; */
 }
 
 .grey{
-    border: 10px solid #F1F1F1;
+    /* border: 10px solid #F1F1F1; */
 }
 
 .box8{
     height: 91px;
     border-radius: 50%;
     background-color: #F6EFD2;
+    padding-top: 14px;
+    padding-bottom: 19px;
 } 
 
 .white{
-    border: 2px solid #FFFFFF;
+    /* border: 2px solid #FFFFFF; */
 }
 
 .font30a{
     color: #363F45;
     font-size: 30px;
-    margin-top: 14px;
     text-align: center;
 }
 
@@ -225,8 +234,6 @@ header{
     color: #363F45;
     font-size: 16px;
     text-align: center;
-    margin-bottom: 19px;
-    padding-top: 4px;
 }
 
 .box9{
@@ -253,8 +260,8 @@ margin-left: 70px;
 }
 
 .slidebar{    
-    background-color: #F5F5F5;
-    margin:34px 24px 0px;
+    /* background-color: #F5F5F5;
+    margin:34px 0px 0px; */
 }
 
 .slideborder{
@@ -308,8 +315,7 @@ li{
 }
 
 .content3{    
-    margin: 70px 24px 0px;
-    padding-bottom: 110px;
+    /* padding: 70px 0px 110px; */
 }
 
 .rangedata{
@@ -362,12 +368,12 @@ li{
 
 footer{    
     background-color: #384B59;
+    /* margin-left:24px;
+    margin-right:24px; */
+    height:44px;
 }
 
 .footer1{
-    width: 1200px;
-    margin: auto;
-    padding: 17px 226px 16px 0px;
     color: #9CAAB4;
     text-align: right;
     font-family: Lato;
