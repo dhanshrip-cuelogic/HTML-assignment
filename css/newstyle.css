@@ -45,44 +45,62 @@ header{
 .box2{
     width: 143px;
     height: 40.41px;
+    line-height: 40.41px;
     float: right;
 }
 
-
-.setting{
-    display: block;
-    margin: 9.5px auto;
+.icon{
+    display: inline;
+    vertical-align: middle
 }
 
 .message{
     position: relative;
-    display: block;
+}
+.setting{
+    display: inline;
+    margin: 0px 21px 0px 42px;
+}
+/* 
+.setting{
+    display: inline;
+    margin: 9.5px auto;
+    vertical-align: middle;
+}
+
+.message{
+    position: relative;
+    display: inline;
+    vertical-align: middle
     margin: 11.5 auto;
 }
+
+.ellipse{
+    display: inline;
+    vertical-align: middle
+    margin: 11px auto;
+} */
 
 .red6{
     position: absolute;
     width: 20px;
-    border: 3px solid red;
+    height: 20px;
+    border: 1px solid red;
     border-radius: 50%;
-    margin-top: -37px;
-    margin-left: 22px;
+    top: 10px;
+    right: 167px;
     font-size: 14px;
     font-family: Lato;
     background-color: red;
     color: #FFFFFF;
     text-align: center;
+   
 }
 
 .box3{
-    float: right;
+     /* float: right; */
     height: 40px;
-    width: 40px;
-}
-
-.ellipse{
-    display: block;
-    margin: 11px auto;
+    width: 40px; 
 }
 
 .box3:hover{
@@ -90,7 +108,8 @@ header{
 }
 
 .content1{
-    /* margin: 43px 0px 0px; */
+    padding-top: 100px;
+    padding-bottom: 55px;
 }
 
 .dots{
@@ -99,10 +118,11 @@ header{
 }
 
 .text1{
-    /* margin-bottom: 36px; */
+    margin-bottom: 36px;
 }
 
 .font18{
+    display: inline-block;
     font-size: 18px;
     color: #363F45;
 }
@@ -116,7 +136,6 @@ header{
 }
 
 .font30{
-    margin-top: 65px;
     margin-left: 15px;
     font-size: 30px;
     color: #FFFFFF;
@@ -127,25 +146,17 @@ header{
     margin-right: 0px !important;
 }
 
-.box5{
+.box5{    
+    float:right;
     background-color: rgba(0,0,0,0.1);
-    float: right;
+    width:90px;
+    height:110px;
+    line-height: 110px;
+    text-align: center;    
 }
 
-.forma1{
-    margin: 34px 33px;
-}
-
-.shape1{
-    margin: 32px 22px 31px 23px;
-}
-
-.forma2{
-    margin: 34px 28px 33px;
-}
-
-.forma3{
-    margin: 32px 26px 31px;
+.cityimg{
+    vertical-align:middle;
 }
 
 .budget{
@@ -182,11 +193,10 @@ header{
 
 .tag{
     float: right;
-    padding-right: 27px;
 }
 
 .box4{
-    float: left;
+    display: inline-block;
     margin-right: 24px;
     width: 270px;
 }
@@ -196,7 +206,7 @@ header{
 
  .box7{
     /* margin: 28px 79px 27px 80px; */
-    margin: 28px auto;
+    margin: 0px auto;
     width: 111px;
     height: 111px;
     border-radius: 50%;
@@ -321,16 +331,7 @@ li{
 }
 
 .content3{    
-    /* padding: 70px 0px 110px; */
-}
-
-.rangedata{
-    padding: 56px 32px 8px 29.5px;
-    color: black;
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: bold;
-    border-bottom: none;
+    /* font-weightnone; */
 }
 
 .range{   
@@ -413,4 +414,8 @@ footer{
     top: 100%;
     left:50%;
     margin-left: -5px;
+}
+
+.test{
+    display: inline-block;
 }
