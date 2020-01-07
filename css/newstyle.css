@@ -253,27 +253,29 @@ header{
 }
 
 .font16b{
+vertical-align: middle;
 font-size: 16px;
 font-family: 'Lato', sans-serif;
-margin-top: 20px;
-margin-bottom: 5px;
+padding-right:22px;
 text-align: center;
-margin-left: 70px;
+float: right;
 }
 
+.milestone2{
+    height: 59px; line-height: 59px;
+
+}
 .box10{
+    margin-left:57px;
     font-size: 34px;
     font-weight: bold;
-    padding-left: 49px;
-    text-align: center;
     color: #E1E2E9;
-    opacity: 1;
-    
+    vertical-align: middle;
 }
 
 .slidebar{    
-    /* background-color: #F5F5F5;
-    margin:34px 0px 0px; */
+    background-color: #F5F5F5;
+    margin-top:34px;
 }
 
 .slideborder{
@@ -286,7 +288,8 @@ margin-left: 70px;
     width: 564px;
     margin-right: 24px;
     background-color: #FFFFFF;
-    float:left;
+    /* float:left; */
+    display: inline-block;
 }
 
 li{
@@ -313,6 +316,7 @@ li{
 .date{    
     /* margin-top: -8px; */
     text-align: center;
+    display: inline-block;
     /* margin-right:20px; */
 }
 .listitems{
@@ -323,7 +327,7 @@ li{
     margin-left: 19.16px;
     border: 1px solid #CED4D9;
     padding: 0px 8.5px;
-    display: inline;
+    vertical-align: super;
 }
 
 ._3dots{
@@ -331,7 +335,7 @@ li{
 }
 
 .content3{    
-    /* font-weightnone; */
+    margin: 70px 0px 110px;
 }
 
 .range{   
