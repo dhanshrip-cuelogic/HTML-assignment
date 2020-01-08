@@ -8,6 +8,7 @@
 .container{
     width: 1200px;
     margin:0px auto;
+    
 }
 
 body{
@@ -27,8 +28,9 @@ header{
 .header{
     /* position: fixed; */
     padding: 10px 0px;
-    width:1200px;
-    margin:auto;
+    /* width:1200px; */
+    margin-right: 24px;
+    margin-left:24px;
 }
 
 .spire{
@@ -109,12 +111,14 @@ header{
 
 .content1{
     padding-top: 100px;
-    padding-bottom: 55px;
-}
+    /* width:1200px; */
+    margin-right: 24px;
+    margin-left:24px;
 
+}
 .dots{
     float: right;
-    margin-right: 12px;
+    margin-right:24px;
 }
 
 .text1{
@@ -123,6 +127,7 @@ header{
 
 .font18{
     display: inline-block;
+    /* float: left; */
     font-size: 18px;
     color: #363F45;
 }
@@ -181,6 +186,9 @@ header{
 
 .content2{
     /* margin: 267px 0px 0px; */
+    margin-top: 55px;
+    margin-right: 24px;
+    margin-left:24px;
 }
 
 .text2{
@@ -290,19 +298,22 @@ float: right;
     background-color: #FFFFFF;
     /* float:left; */
     display: inline-block;
+    height: 330px;
 }
 
 li{
-    padding: 23px 30px 19px 29.5px;
-    border-bottom: 2px solid #EBECF2;
+    border-bottom: 1px solid #EBECF2;
     font-size: 14px;
     color: #919599;
-    /* display:inline-block; */
+    display: block;
+    height: 55px;
+    /* line-height: 55px; */
+    padding: 0px 30px;
+    /* padding: 18px 30px 0px; */
 }
-
 .heading{
     padding-top:18px;
-    padding-bottom: 17px;
+    /* padding-bottom: 17px; */
     font-size: 16px;
     font-weight: bold;
     color: black;
@@ -320,13 +331,26 @@ li{
     /* margin-right:20px; */
 }
 .listitems{
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.listtext{
+    max-width: 271px;
+    display: inline-block;
+}
+
+.listcontent{
+    /* display: inline-block; */
+    /* margin-left: 117px;  */
+    /* vertical-align: middle; */
     float: right;
-    /* display:inline-block; */
 }
 .checkbox{
     margin-left: 19.16px;
     border: 1px solid #CED4D9;
-    padding: 0px 8.5px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
     vertical-align: super;
 }
 
@@ -335,13 +359,22 @@ li{
 }
 
 .content3{    
-    margin: 70px 0px 110px;
+    margin: 70px 24px 110px;
+    
 }
 
 .range{   
     width: 332px;
     float: right;
     background-color: #E1E2E6;
+}
+.rangedata{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 32px 0px 30px;
+    /* margin-top: 32px; */
+    margin-bottom: 60px;
 }
 
 .greenrange1{
@@ -373,8 +406,9 @@ li{
 }
 
 .check{
-    float: right;
+    /* float: right; */
     margin-left: 26.5px;
+    vertical-align: super;
 }
 
 footer{    
@@ -390,6 +424,8 @@ footer{
     font-family: Lato;
     font-size: 11px;
     padding-top: 17px;
+    margin-right: 24px;
+    margin-left:24px
 }
 
 .arrowBox{
