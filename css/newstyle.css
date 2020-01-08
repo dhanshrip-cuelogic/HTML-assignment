@@ -26,9 +26,7 @@ header{
 }
 
 .header{
-    /* position: fixed; */
     padding: 10px 0px;
-    /* width:1200px; */
     margin-right: 24px;
     margin-left:24px;
 }
@@ -63,25 +61,6 @@ header{
     display: inline;
     margin: 0px 21px 0px 42px;
 }
-/* 
-.setting{
-    display: inline;
-    margin: 9.5px auto;
-    vertical-align: middle;
-}
-
-.message{
-    position: relative;
-    display: inline;
-    vertical-align: middle
-    margin: 11.5 auto;
-}
-
-.ellipse{
-    display: inline;
-    vertical-align: middle
-    margin: 11px auto;
-} */
 
 .red6{
     position: absolute;
@@ -111,7 +90,6 @@ header{
 
 .content1{
     padding-top: 100px;
-    /* width:1200px; */
     margin-right: 24px;
     margin-left:24px;
 
@@ -185,18 +163,9 @@ header{
 }
 
 .content2{
-    /* margin: 267px 0px 0px; */
     margin-top: 55px;
     margin-right: 24px;
     margin-left:24px;
-}
-
-.text2{
-    /* margin-bottom: 21px; */
-}
-
-.less{
-       /* margin-left: 996px; */
 }
 
 .tag{
@@ -213,24 +182,11 @@ header{
  }
 
  .box7{
-    /* margin: 28px 79px 27px 80px; */
     margin: 0px auto;
     width: 111px;
     height: 111px;
     border-radius: 50%;
 } 
-
-.green{
-    /* border: 10px solid #8AC249; */
-}
-
-.yellow{
-    /* border: 10px solid #FEC006; */
-}
-
-.grey{
-    /* border: 10px solid #F1F1F1; */
-}
 
 .box8{
     height: 91px;
@@ -239,10 +195,6 @@ header{
     padding-top: 14px;
     padding-bottom: 19px;
 } 
-
-.white{
-    /* border: 2px solid #FFFFFF; */
-}
 
 .font30a{
     color: #363F45;
@@ -325,10 +277,8 @@ li{
 }
 
 .date{    
-    /* margin-top: -8px; */
     text-align: center;
     display: inline-block;
-    /* margin-right:20px; */
 }
 .listitems{
     padding-top: 15px;
@@ -413,8 +363,6 @@ li{
 
 footer{    
     background-color: #384B59;
-    /* margin-left:24px;
-    margin-right:24px; */
     height:44px;
 }
 
