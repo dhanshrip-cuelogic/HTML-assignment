@@ -59,7 +59,6 @@ header{
 }
 .setting{
     display: inline;
-    /* margin: 0px 21px 0px 42px; */
 }
 
 .red6{
@@ -80,7 +79,6 @@ header{
 }
 
 .box3{
-     /* float: right; */
     height: 40px;
     width: 40px; 
     display: inline-block;
@@ -262,17 +260,11 @@ li{
     font-size: 14px;
     color: #919599;
     display: block;
-    height: 56px;
-    /* line-height: 55px; */
+    height: 56px; 
     padding: 0px 30px;
-    /* padding: 18px 30px 0px; */
 }
-/* li::after{
-    margin-bottom: 1px;
-} */
 .heading{
     padding-top:18px;
-    /* padding-bottom: 17px; */
     font-size: 16px;
     font-weight: bold;
     color: black;
@@ -303,7 +295,7 @@ li{
     display: inline-block;
     margin-left: 117px; 
     vertical-align: middle;
-    /* float: right; */
+  
 }
 .checkbox{
     margin-left: 19.16px;
@@ -333,7 +325,6 @@ li{
     font-size: 16px;
     font-weight: bold;
     padding: 0px 32px 0px 30px;
-    /* margin-top: 32px; */
     margin-bottom: 60px;
 }
 
@@ -362,7 +353,6 @@ li{
 }
 
 .check{
-    /* float: right; */
     margin-left: 19.5px;
     vertical-align: super;
 }
