@@ -67,8 +67,8 @@ header{
     height: 20px;
     border: 0px solid red;
     border-radius: 50%;
-    bottom: 6px;
-    left: 10px;
+    bottom: 18px;
+    left: 20px;
     font-size: 14px;
     font-family: Lato;
     background-color: red;
@@ -83,6 +83,9 @@ header{
     width: 40px; 
     display: inline-block;
     text-align: center;
+}
+.ellipse{
+    margin-left: 16px;
 }
 
 .box3:hover{
@@ -131,6 +134,10 @@ header{
     margin-right: 0px !important;
 }
 
+.boxmile{
+    padding:28px 0px;
+}
+
 .box5{    
     float:right;
     background-color: rgba(0,0,0,0.1);
@@ -174,11 +181,19 @@ header{
     float: right;
 }
 
+.tag1{
+    margin-right: 24px;
+}
+
+.tag2{
+    margin-right: 27px;
+}
+
 .box4{
-    display: inline-block;
     margin-right: 24px;
     width: 270px;
     float: left;
+    margin-bottom: 1px;
 }
 .milestone1{
     background-color: #FFFFFF;    
@@ -197,6 +212,7 @@ header{
     background-color: #F6EFD2;
     padding-top: 14px;
     padding-bottom: 19px;
+    border: 2px solid #FFFFFF;
 } 
 
 .font30a{
@@ -215,30 +231,37 @@ header{
     margin-top: 1px;
 }
 
-.font16b{
-vertical-align: middle;
-font-size: 16px;
-font-family: 'Lato', sans-serif;
-padding-right:22px;
-text-align: center;
-float: right;
-}
 
 .milestone2{
-    height: 59px; line-height: 59px;
+    height: 59px;
+    line-height: 59px;
+    vertical-align: middle;
+    position: relative;
 
 }
+
+
+.font16b{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    
+    }
+
 .box10{
-    margin-left:57px;
     font-size: 34px;
+    font-family: Quicksand;
     font-weight: bold;
     color: #E1E2E9;
-    vertical-align: middle;
+    position: absolute;
+    right:21px;
 }
 
 .slidebar{    
     background-color: #F5F5F5;
-    margin-top:34px;
+    margin:34px 24px 0px 24px;
+
 }
 
 .slideborder{
@@ -247,11 +270,14 @@ float: right;
     border-radius: 3px;
 }
 
+.text2{
+    margin-bottom: 21px;
+}
+
 .checklist{
     width: 564px;
     margin-right: 24px;
     background-color: #FFFFFF;
-    /* float:left; */
     display: inline-block;
 }
 
@@ -263,10 +289,37 @@ li{
     height: 56px; 
     padding: 0px 30px;
 }
+
+.workprop{
+    border-bottom: 1px solid #EBECF2;
+    font-size: 14px;
+    color: #919599;
+    display: block;
+    height: 56px; 
+    padding: 0px 30px;
+}
+
+.first{
+    margin-top: 51px;
+}
+
+.green{
+    border: 10px solid #8AC249;
+}
+
+.yellow{
+    border: 10px solid #FEC006;
+}
+
+.white{
+    border: 10px solid #F1F1F1;
+}
+
 .heading{
     padding-top:18px;
     font-size: 16px;
     font-weight: bold;
+    font-family: Quicksand;
     color: black;
 }
 
